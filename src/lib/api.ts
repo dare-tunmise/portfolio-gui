@@ -1,5 +1,5 @@
 // API service layer for backend communication
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5001';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://portfolio-backend-z5v7.onrender.com';
 
 interface User {
   id: string;
