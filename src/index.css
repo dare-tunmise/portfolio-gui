@@ -101,7 +101,7 @@ All colors MUST be HSL.
   }
 }
 
-@layer base {
+/* @layer base {
   * {
     @apply border-border;
   }
@@ -110,7 +110,7 @@ All colors MUST be HSL.
     @apply bg-background text-foreground antialiased;
     font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   }
-}
+} */
 
 /* React Quill Editor Styles */
 .ql-toolbar {
