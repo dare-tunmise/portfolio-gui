@@ -45,7 +45,7 @@ const ProjectPost = () => {
     
     <meta property="og:title" content={project.title} />
     <meta property="og:description" content={project.body.replace(/<[^>]*>/g, '').substring(0, 160)} />
-    <meta property="og:url" content={`https://daretunmise.com/blog/${post.slug}`} />
+    <meta property="og:url" content={`https://daretunmise.com/blog/${project.slug}`} />
     <meta property="og:type" content="article" />
     
     <meta name="twitter:title" content={project.title} />
