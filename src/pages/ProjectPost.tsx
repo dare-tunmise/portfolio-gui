@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
+import { Helmet } from 'react-helmet-async';
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { api, Blog } from "@/lib/api";
@@ -36,6 +37,21 @@ const ProjectPost = () => {
       </div>
     );
   }
+
+  {project && (
+  <Helmet>
+    <title>{project.title} - Dare Tunmise</title>
+    <meta name="description" content={project.body.replace(/<[^>]*>/g, '').substring(0, 160)} />
+    
+    <meta property="og:title" content={project.title} />
+    <meta property="og:description" content={project.body.replace(/<[^>]*>/g, '').substring(0, 160)} />
+    <meta property="og:url" content={`https://daretunmise.com/blog/${post.slug}`} />
+    <meta property="og:type" content="article" />
+    
+    <meta name="twitter:title" content={project.title} />
+    <meta name="twitter:description" content={project.body.replace(/<[^>]*>/g, '').substring(0, 160)} />
+  </Helmet>
+)}
 
   if (error || !project) {
     return (
