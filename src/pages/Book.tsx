@@ -30,9 +30,9 @@ const Book = () => {
 
         <div className="prose prose-invert max-w-none mb-12">
           <p className="text-lg leading-relaxed text-center">
-            A poetry chapbook exploring themes of memory, identity, and the fragments we carry. 
-            These poems navigate the spaces between remembering and forgetting, questioning 
-            what remains when we try to undo the past.
+“Tunmise writes in praise of memory’s complexity and resilience. He is mindful of the ways in which memory stores and is the store; the ways in which it is beholden to naming and ordering, as well as how it represents reality.”
+
+-Tjawangwa Dema
           </p>
         </div>
 
