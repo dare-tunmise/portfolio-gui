@@ -52,6 +52,12 @@ const Index = () => {
             <div className="container mx-auto px-0 py-6 max-w-3xl">
               <nav className="flex items-center gap-8 text-sm">
                 <Link 
+                  to="/about" 
+                  className="hover:text-accent transition-colors"
+                >
+                  About
+                </Link>
+                <Link 
                   to="/writings" 
                   className="hover:text-accent transition-colors"
                 >

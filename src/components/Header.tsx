@@ -12,6 +12,12 @@ const Header = () => {
             Home
           </Link>
           <Link 
+            to="/about" 
+            className="hover:text-accent transition-colors"
+          >
+            About
+          </Link>
+          <Link 
             to="/writings" 
             className="hover:text-accent transition-colors"
           >
