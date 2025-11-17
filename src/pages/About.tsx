@@ -13,24 +13,20 @@ const About = () => {
 
         <div className="prose prose-invert max-w-none">
           <p className="text-lg leading-relaxed mb-6">
-            I’m Dare Tunmise — a software engineer and writer. I build backend systems,
-            AI-powered tools, and fun things on the web that make work easier for people.
+            I’m Dare Tunmise — a software engineer and writer.
+            I build backend systems, AI-powered tools, and thoughtful products on the web that make work easier for people.
           </p>
 
           <p className="leading-relaxed mb-6">
-            I currently work with a London-based travel-tech company, focusing on backend engineering, 
-            system design, and applied AI. A lot of my work involves understanding how 
-            large language models behave under the hood and using them to solve practical problems.
+            I currently work with a London-based travel-tech company, where I focus on backend engineering, system design, and applied AI. Much of my work involves understanding how large language models behave under the hood and using them to solve practical, real-world problems.
           </p>
 
           <p className="leading-relaxed mb-6">
-            Outside work, I write, experiment with ideas, and build tools that interest me. 
-            My work often sits at the intersection of technology, structure, and human behaviour.
+             Outside work, I write, experiment with ideas, and build tools that interest me. My work often sits at the intersection of technology, structure, and human behaviour.
           </p>
 
           <p className="leading-relaxed mb-6">
-            I’m open to collaborating with companies that want to integrate AI into their workflow,
-            build internal tools, or develop custom AI agents. Projects start from $3,000.
+            I’m open to collaborating with companies looking to integrate AI into their workflow, build internal tools, or develop custom AI agents. Projects start from $3,000.
           </p>
 
           <h2 className="text-2xl font-bold mb-4 mt-12">Get in Touch</h2>
