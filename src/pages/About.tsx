@@ -38,7 +38,7 @@ const About = () => {
           <ul className="list-none pl-0 space-y-2 mb-8">
             <li>
               <a
-                href="mailto:tunmise@bookmack.com"
+                href="mailto:hello@daretunmise.com"
                 className="text-accent hover:underline"
               >
                 Email: hello@daretunmise.com
