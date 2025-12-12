@@ -66,7 +66,7 @@ const Writings = () => {
             groupPostsByYear(writings).map((yearGroup) => (
               <div key={yearGroup.year} className="mb-12 last:mb-0">
                 {/* Year Header */}
-                <h2 className="text-3xl font-bold mb-6 text-gray-800 border-l-4 border-blue-500 pl-4">
+                <h2 className="text-3xl font-bold mb-6 pl-4" style={{ color: '#e8dbc9' }}>
                   {yearGroup.year}
                 </h2>
                 
