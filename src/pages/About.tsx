@@ -12,27 +12,50 @@ const About = () => {
         </h1>
 
         <div className="prose prose-invert max-w-none">
+          <p className="text-lg leading-relaxed mb-6">Hi, </p>
           <p className="text-lg leading-relaxed mb-6">
             I’m Dare Tunmise — a software engineer and writer.
             I build backend systems, AI-powered tools, and thoughtful products on the web that make work easier for people.
           </p>
 
           <p className="leading-relaxed mb-6">
-            I currently work with a London-based travel-tech company, where I focus on backend engineering, system design, and applied AI. Much of my work involves understanding how large language models behave under the hood and using them to solve practical, real-world problems.
+            I currently work with a London-based travel-tech company, where I build backend services, design system architecture, and develop AI-powered features used in production. My work centers on understanding how large language models behave under real-world constraints and using that understanding to solve practical problems for teams and businesses.
           </p>
 
           <p className="leading-relaxed mb-6">
-             Outside work, I write, experiment with ideas, and build tools that interest me. My work often sits at the intersection of technology, structure, and human behaviour.
+            Outside work, I explore ideas, write, and build products that sit at the intersection of technology, structure, and human behaviour. I enjoy taking messy workflows, ambiguous information, or complex processes and designing systems that make them simple and usable.
           </p>
 
-          <p className="leading-relaxed mb-6">
-            I’m open to collaborating with companies looking to integrate AI into their workflow, build internal tools, or develop custom AI agents. Projects start from $3,000.
+          <h2 className="text-2xl font-bold mb-4 mt-12">What I Do</h2>
+
+          <p className="leading-relaxed mb-6">I collaborate with companies that want to integrate AI into their daily operations — whether that’s:</p>
+          <ul className="space-y-4">
+            <li className="flex items-start">
+              <span className="flex h-2 w-2 mt-2 rounded-full bg-blue-500 mr-3"></span>
+              <span className="leading-relaxed">building custom AI agents</span>
+            </li>
+            <li className="flex items-start">
+              <span className="flex h-2 w-2 mt-2 rounded-full bg-blue-500 mr-3"></span>
+              <span className="leading-relaxed">automating internal workflows</span>
+            </li>
+            <li className="flex items-start">
+              <span className="flex h-2 w-2 mt-2 rounded-full bg-blue-500 mr-3"></span>
+              <span className="leading-relaxed">developing AI-powered dashboards and tooling</span>
+            </li>
+            <li className="flex items-start">
+            <span className="flex h-2 w-2 mt-2 rounded-full bg-blue-500 mr-3"></span>
+            <span className="leading-relaxed">tructuring documents, conversations, and knowledge into actionable insights</span>
+            </li>
+          </ul>
+
+          <p className="leading-relaxed mt-4 mb-6">
+            Projects typically start from $3,000, depending on scope.
           </p>
 
           <h2 className="text-2xl font-bold mb-4 mt-12">Get in Touch</h2>
 
           <p className="leading-relaxed mb-4">
-            If you have something in mind or want to discuss a project, feel free to reach out.
+            If you’d like to discuss a project or have something in mind, feel free to reach out.
           </p>
 
           <ul className="list-none pl-0 space-y-2 mb-8">
